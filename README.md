@@ -127,20 +127,26 @@ El desarrollo del sistema se gestiona mediante metodologías ágiles divididas e
   * **Sprint 1 (Completado):** Relevamiento de campo, ingeniería de requerimientos (RF/RNF) y redacción formal de historias de usuario bajo estándar Gherkin.
   * **Sprint 2 (Completado):** Maquetación e interconexión de interfaces visuales de usuario (Wireframes), junto con el desarrollo de diagramas de casos de uso, clases generales, actividades y secuencia.
 
-## Equipo de desarrollo
+## 8. Equipo de Desarrollo
 
-| Nombre completo | Rol en el proyecto | GitHub |
-| :--- | :--- | :--- |
-| :--- | :--- | :--- |
-| [Apellido, Nombre] | Desarrollador Full Stack | [@usuario1](https://github.com) |
-| [Apellido, Nombre] | Desarrollador Full Stack | [@usuario2](https://github.com) |
-| [Apellido, Nombre] | Desarrollador Full Stack | [@usuario3](https://github.com) |
-| [Apellido, Nombre] | Desarrollador Full Stack | [@usuario4](https://github.com) |
-| [Apellido, Nombre Profesor] | Tutor / Product Owner | [@usuario_prof](https://github.com) |
+Este proyecto ha sido diseñado, modelado e implementado de forma colaborativa por un equipo de cuatro desarrolladores con competencias simétricas, cubriendo de manera integral las necesidades de análisis de negocio, arquitectura de base de datos, lógica de servidor y diseño de interfaces multiplataforma.
 
-**Docente:** [Nombre de tu Profesor/a]  
-**Institución:** Tecnicatura Superior en Desarrollo de Software  
-**Materia:** Proyecto Final / Prácticas Profesionalizantes II — **Año:** 2026
+| Apellido, Nombre | Rol / Enfoque en el Proyecto | Perfil de GitHub |
+| :--- | :--- | :--- |
+| Tu-Apellido, Francisco | Desarrollador / Desarrollo de Sprints | [@tu_usuario](https://github.com/tu_usuario) |
+| Apellido, Nombre 2 | Desarrollador / Desarrollo de Sprints | [@usuario2](https://github.com/usuario2) |
+| Apellido, Nombre 3 | Desarrollador / Desarrollo de Sprints | [@usuario3](https://github.com/usuario3) |
+| Apellido, Nombre 4 | Desarrollador / Desarrollo de Sprints | [@usuario4](https://github.com/usuario4) |
+| Apellido, Nombre Docente | Tutor / Product Owner | [@usuario4](https://github.com/usuario4) |
+
+* **Institución:** Sede Regional Río Tercero «Escuela Superior de Comercio» — Universidad Provincial de Córdoba (UPC)
+* **Carrera:** Tecnicatura Superior en Desarrollo de Software
+* **Materia:** Proyecto Integrador / Prácticas Profesionalizantes II
+* **Cátedra / Docente:** [Nombre de tu Docente]
+* **Año Lectivo:** 2026
+
+
+
 
 ## Licencia
 
