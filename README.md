@@ -1,5 +1,7 @@
 # GrupoF-GestionDeProyectos
 Repositorio para el "Grupo F" de Gestion de Proyectos.
+🚧 PROYECTO EN DESARROLLO 🚧
+⏳ Estamos trabajando aun... y se implementaran los nuevos avances. Por favor, vuelve a visitarnos en breve.
 
 ---
 
@@ -145,15 +147,32 @@ Este proyecto ha sido diseñado, modelado e implementado de forma colaborativa p
 * **Cátedra / Docente:** [Nombre de tu Docente]
 * **Año Lectivo:** 2026
 
+---
 
+## 9. Licencia y Contribuciones
 
+### 📄 Licencia
 
-## Licencia
+Este proyecto ha sido desarrollado exclusivamente con **fines académicos e institucionales** como parte de los requisitos de evaluación de la carrera, como un trabajo final.
 
-Este proyecto fue desarrollado íntegramente con fines académicos como parte del trabajo final de la carrera. Se encuentra distribuido bajo la licencia [MIT](LICENSE).
+El código fuente de este ecosistema se distribuye bajo la licencia [MIT](LICENSE). Esto permite su uso, modificación y distribución con fines educativos, manteniendo la atribución a sus autores originales.
 
-## Contribuciones
+> 🚫 **Descargo de Responsabilidad (Cafetería Coffee Blinders):** > La adaptación de la marca, menús e identidad visual de *"Coffee Blinders"* se realiza bajo un marco estrictamente pedagógico y de simulación para un cliente de estudio de la Sede Regional Río Tercero. Los autores no guardan relación comercial comercial con marcas registradas externas, ni el software está destinado (en su estado actual) para su explotación económica directa en el mercado.
 
-Este es un proyecto académico de carácter integrador. Si deseas reportar errores, bugs o realizar sugerencias para mejorar la lógica del ecosistema (especialmente en la implementación de WebSockets o el módulo de escandallo), por favor abre un [Issue](https://github.com/tu-usuario/tu-repositorio/issues) en este repositorio.
+---
 
+### 🤝 Contribuciones y Reporte de Errores
+
+Al tratarse de un proyecto integrador académico cerrado y evaluable para la cátedra, **no se aceptan solicitudes de extracción (Pull Requests) externas** para la rama principal de producción. 
+
+Sin embargo, si eres compañero de la institución, docente o auditor técnico y deseas reportar un error de consistencia, sugerir una optimización en los servicios de la API REST o proponer una mejora en la interfaz de usuario, te invitamos a participar utilizando las herramientas del repositorio:
+
+1. Dirígete a la pestaña de **[Issues](../../issues)** de este repositorio en GitHub.
+2. Presiona el botón `New Issue`.
+3. Utilice una plantilla clara detallando:
+   * El módulo afectado (Backend / Frontend Web / App Móvil).
+   * Los pasos precisos para replicar el comportamiento anómalo.
+   * El resultado esperado vs. el código de estado HTTP o error visual obtenido.
+
+Agradecemos enormemente las observaciones técnicas que enriquezcan nuestro proceso de aprendizaje y despliegue de software profesional.
 
