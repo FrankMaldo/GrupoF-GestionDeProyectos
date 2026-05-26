@@ -1,126 +1,131 @@
 # GrupoF-GestionDeProyectos
 Repositorio para el "Grupo F" de Gestion de Proyectos.
 
-# Sistema Integral de Gestión Gastronómica ☕
+---
 
-### Este proyecto es un Ecosistema Gastronómico Digital e Integral diseñado para transformar establecimientos tradicionales en negocios inteligentes. Optimizando la comunicación en tiempo real entre clientes, mozos, barra/cocina, cajero y administración.
+# Sistema Integral de Gestión Gastronómica - Coffee Blinders ☕
+
+Un ecosistema digital e integral diseñado para transformar la gestión tradicional de establecimientos gastronómicos en un modelo inteligente, agilizando la interacción en tiempo real entre clientes, mozos, cocina y administración. Esta solución está completamente adaptada y personalizada para las necesidades operativas de la cafetería **Coffee Blinders**.
 
 ![Estado](https://img.shields.io/badge/estado-en%20desarrollo-yellow)
 ![Versión](https://img.shields.io/badge/versión-1.0.0-blue)
 ![Licencia](https://img.shields.io/badge/licencia-MIT-green)
 ![Java](https://img.shields.io/badge/Java-21-orange?logo=java)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4.0.5-brightgreen?logo=springboot)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4.0.X-brightgreen?logo=springboot)
 
-## 📖 Tabla de Contenidos
+## 📋 Tabla de Contenidos
 
-*   [Descripción](#descripción)
-*   [Tecnologías](#tecnologías)
-*   [Requisitos previos](#requisitos-previos)
-*   [Instalación](#instalación)
-*   [Uso](#uso)
-*   [Estructura del proyecto](#estructura-del-proyecto)
-*   [Equipo](#equipo)
-*   [Licencia](#licencia)
+* [1. Descripción del Proyecto](#3-descripción-del-proyecto)
+* [2. Stack Tecnológico](#4-stack-tecnológico)
+* [3. Requisitos Previos e Instalación](#5-requisitos-previos-e-instalación)
+* [4. Variables de Entorno](#6-variables-de-entorno)
+* [5. Estructura del Proyecto](#7-estructura-del-proyecto)
+* [6. Endpoints de la API](#8-endpoints-de-la-api)
+* [7. Estado del Proyecto y Sprint Actual](#9-estado-del-proyecto-y-sprint-actual)
+* [8. Equipo de Desarrollo](#10-equipo-de-desarrollo)
+* [9. Licencia y Contribuciones](#11-licencia-y-contribuciones)
 
-## Descripción
+## 1. Descripción del Proyecto
 
-**Sistema Integral de Gestión Gastronómica** es una plataforma integral desarrollada como proyecto final para la carrera de **Desarrollo de Software**. El sistema permite digitalizar y conectar en tiempo real todas las áreas de un establecimiento (salón, cocina, barra y administración), transformando un negocio tradicional en un establecimiento inteligente.
+**Sistema Integral de Gestión Gastronómica** es un ecosistema digital e integrado diseñado para transformar la gestión tradicional de establecimientos gastronómicos en un modelo inteligente. El sistema permite a los usuarios interactuar en tiempo real mediante un flujo automatizado que abarca desde el escaneo de códigos QR en las mesas, la toma de comandas, el procesamiento en pantallas de producción, hasta el control de caja y la administración centralizada de inventarios. 
 
-Está orientado a **dueños y administradores de establecimientos gastronómicos (Restobares y Cafeterías)** que buscan eliminar la fricción operativa y modernizar la experiencia del cliente final.
+Está orientado a establecimientos del sector gastronómico (tales como restobares y cafeterías) que busquen modernizar su operación, optimizar sus tiempos de servicio y eliminar los errores humanos del proceso manual. Para este caso de estudio y despliegue inicial, la solución se encuentra completamente adaptada y personalizada a las necesidades y dinámicas operativas de la cafetería **Coffee Blinders**.
 
-### Objetivo del sistema
-El sistema resuelve el problema de la desorganización y la pérdida de información en los procesos manuales. Aporta valor a través de:
+### 🎯 Objetivo del Sistema
 
-*   **Eliminación de errores:** Sustituye el lápiz y papel por terminales digitales (móviles y KDS) con actualización instantánea vía WebSockets.
-*   **Control de costos preciso:** Implementa la lógica de **escandallo**, permitiendo que cada venta descuente automáticamente los insumos exactos (gramos, mililitros) del inventario.
-*   **Optimización del servicio:** Empodera al cliente permitiéndole el control de su pedido mediante códigos QR, reduciendo tiempos de espera y carga de trabajo del personal de salón.
-*   **Transparencia financiera:** Garantiza la integridad de los ingresos mediante auditorías de arqueo de caja "ciegos", asegurando que el stock físico coincida con la facturación.
+El principal objetivo de la plataforma es resolver las ineficiencias críticas de la atención analógica (demoras por traslados físicos del personal, malentendidos por letra ilegible, pérdidas de comandas en papel y descuadres financieros en los cierres de caja). 
 
-## Tecnologías
+Al centralizar las operaciones en una arquitectura digital integrada de solicitud y respuesta, el sistema aporta valor en cada eslabón del negocio:
+* **Autonomía al Cliente:** Permite que los usuarios escaneen un código QR físico para realizar pedidos y solicitar la cuenta directamente desde sus dispositivos móviles, acelerando la experiencia de consumo.
+* **Sincronización en Producción:** Reemplaza los tickets de papel por terminales de visualización digital en el área de preparación (barra/cocina), organizando los pedidos automáticamente por orden de llegada y prioridad.
+* **Optimización del Personal de Salón:** Libera a los mozos de tareas mecánicas de traslado de información, permitiéndoles enfocar sus esfuerzos en la calidad de la atención y en la supervisión del estado del salón en tiempo real.
+* **Control Financiero y de Stock Riguroso:** Provee a la administración de un control exacto de insumos actualizados al segundo, junto con cierres de caja guiados ("ciegos") y un panel de auditoría permanente para garantizar la transparencia del negocio.
 
-| Capa | Tecnología | Versión |
+## 2. Stack Tecnológico
+
+El ecosistema está construido bajo una arquitectura desacoplada y robusta, garantizando la escalabilidad del sistema, la integridad de las transacciones financieras y una experiencia fluida de usuario en todos los dispositivos.
+
+| Capa / Componente | Tecnología / Herramienta | Versión / Ámbito |
 | :--- | :--- | :--- |
-| **Backend** | Java / Spring Boot | 21 / 4.0.5 |
-| **Seguridad** | Spring Security (JWT) | 6.x |
-| **Tiempo Real** | WebSockets (STOMP) | - |
-| **Base de datos** | PostgreSQL (JPA / Hibernate) | 16.x |
-| **Frontend Web** | Next.js | 14.x |
-| **Mobile** | React Native (Expo) | - |
-| **Control de versiones** | Git / GitHub / Mercurial | - |
-| **Gestor de paquetes** | Maven / npm | - |
-| **Entorno de Trabajo** | Devuan Linux (Excalibur) / Windows 10/11 | - |
+| **Arquitectura General** | Cliente-Servidor (Solicitud-Respuesta) | Api Rest Asíncrona |
+| **Backend (Servidor)** | Spring Boot | 4.0.X |
+| **Gestor de Dependencias** | Maven | Integrado en Backend |
+| **Base de Datos** | PostgreSQL | Relacional / Transaccional |
+| **Frontend Web (KDS / Admin)** | TypeScript (React) (Next.js) | Vistas de Producción y Control |
+| **Frontend Móvil (Cliente / Mozo)**| React Native (Expo) | Entornos Móviles Multiplataforma |
+| **Lenguaje de Programación** | Java | 21 |
+| **Entorno de Desarrollo (IDE)** | IntelliJ IDEA | Community Edition (Gratuito) |
+| **Control de Versiones** | Mercurial | Gestión de Código Fuente |
+| **Entornos de Trabajo** | Linux Devuan Excalibur / Windows 10/11 | Sistemas de Desarrollo y Pruebas |
 
-## Requisitos previos
+## 3. Requisitos Previos e Instalación
 
-*   **Java Development Kit (JDK):** Versión 21
-*   **Maven:** 3.9 o superior
-*   **Node.js:** 20.x o superior (LTS)
-*   **Base de datos:** PostgreSQL 16.x
-*   **Git:** Para el control de versiones
+Para poner en marcha el entorno de desarrollo local, asegúrese de cumplir con los siguientes componentes de software instalados en su sistema operativo (**Linux Devuan Excalibur** o **Windows 10/11**).
 
-## Instalación
-En desarrollo...
-### 🖥️ Backend
-### 🌐 Frontend
+### 📋 Requisitos Previos
 
-## 🚀 Guía de Uso
+* **Java Development Kit (JDK):** Versión 21 instalado y configurado en las variables de entorno (`JAVA_HOME`).
+* **Apache Maven:** Versión 3.9 o superior para la gestión del ciclo de vida del backend.
+* **PostgreSQL:** Versión 15 o superior ejecutándose localmente o en un contenedor.
+* **Node.js & npm:** Versión 20.x o superior (necesario para las dependencias del ecosistema frontend).
+* **Mercurial:** Herramienta de control de versiones instalada (`hg`).
 
-El sistema está diseñado para que la información fluya sin interrupciones entre los cuatro perfiles principales:
+PENDIENTE - EN DESARROLLO...
+### ⚙️ Instalación y Configuración del Servidor (Backend)
+### 🖥️ Instalación y Configuración del Frontend
 
-### 1. Experiencia del Cliente (Autogestión)
-*   **Acceso:** El cliente escanea el código QR de su mesa.
-*   **Pedido:** Accede a la carta digital, selecciona sus productos y confirma el pedido.
-*   **Pago:** Puede solicitar la cuenta o pagar de forma autónoma desde su móvil.
+PENDIENTE - EN DESARROLLO...
+## 4. Variables de Entorno y Configuración
 
-### 2. Personal de Salón (App Móvil)
-*   **Gestión de Mesas:** El mozo visualiza en tiempo real qué mesas están libres, ocupadas o solicitando atención.
-*   **Toma de Pedidos:** Carga pedidos directamente en la App, los cuales se sincronizan instantáneamente con la barra/cocina.
+PENDIENTE - EN DESARROLLO...
+## 5. Estructura del Proyecto
 
-### 3. Cocina y Barra (Sistema KDS)
-*   **Producción:** Los preparadores visualizan las comandas en pantallas digitales (KDS) organizadas por orden de llegada y prioridad.
-*   **Notificación:** Al marcar un plato como "Listo", el personal de salón recibe una notificación inmediata para su entrega.
+PENDIENTE - EN DESARROLLO...
+## 6. Endpoints de la API
 
-### 4. Administración y Caja (Panel Web)
-*   **Control de Stock:** Visualización del inventario actualizado automáticamente mediante la lógica de **escandallo**.
-*   **Cierre de Jornada:** Realización de **arqueos de caja ciegos** para garantizar la transparencia financiera y auditoría de ventas.
+La comunicación entre las aplicaciones cliente y el servidor central se realiza a través de peticiones HTTP asíncronas.
 
-## Variables de entorno
-En desarrollo...
+### 📱 Módulo 1: Gestión de Mesas y Sesiones (Cliente / Mozo)
+Destinado a los flujos de apertura de mesa mediante códigos QR, solicitudes de asistencia y control del estado del salón.
 
-## Estructura del proyecto
-En desarrollo...
+### ☕ Módulo 2: Comandas y Producción (Pedidos / KDS)
+Gestión transaccional de los consumos realizados en el establecimiento y su visualización en pantallas de barra o cocina.
 
-## Endpoints disponibles
-En desarrollo... no esta completamente definida...
-**Base URL:** `http://localhost:8080/api/v1`
+### 🔒 Módulo 3: Seguridad, Personal y Auditoría (Administración / Cajero)
+Endpoints restringidos para el control de accesos basados en roles (RBAC), cierres financieros y auditoría de datos.
 
-| Método | Endpoint | Descripción | Auth requerida |
-| :--- | :--- | :--- | :--- |
-| **POST** | `/auth/login` | Inicio de sesión y obtención de token JWT | No |
-| **GET** | `/mesas` | Listar estado de todas las mesas (Salón) | Sí |
-| **GET** | `/productos` | Listar carta/menú disponible con stock real | Sí |
-| **POST** | `/pedidos` | Crear una nueva orden (Mozo o QR Cliente) | Sí |
-| **GET** | `/pedidos/pendientes` | Ver órdenes para preparar (Pantalla KDS) | Sí |
-| **PATCH** | `/pedidos/{id}/estado` | Cambiar estado (En preparación / Entregado) | Sí |
-| **GET** | `/inventario` | Ver stock de insumos y niveles críticos | Sí (Admin) |
-| **POST** | `/arqueos` | Registrar cierre de caja "ciego" | Sí (Cajero) |
+---
 
-> **Nota sobre Tiempo Real:** Para la actualización instantánea de comandas en cocina y estados de mesa, el sistema utiliza **WebSockets** a través del endpoint `ws://localhost:8080/ws-gastronomico`.
+EN DESARROLLO
+## 7. Estado del Proyecto y Sprint Actual
 
-## Estado del proyecto y sprint actual
+El desarrollo del sistema se gestiona mediante metodologías ágiles divididas en ciclos de incremento tecnológico (Sprints). Actualmente, el proyecto se encuentra en una etapa de transición crucial, habiendo completado la fase analítica y de diseño visual para dar inicio a la construcción del núcleo del servidor.
 
-| Módulo | Estado |
-| :--- | :--- |
-| **Backend (Java 21 / Spring Boot)** | Pendiente |
-| **Autenticación (JWT)** | Pendiente |
-| **Lógica de Escandallo (Inventario)** | Pendiente |
-| **Comunicación en tiempo real (WebSockets)** | Pendiente |
-| **Frontend Web (Next.js)** | Pendiente |
-| **App Mobile (React Native / Expo)** | Pendiente |
-| **Módulo de Arqueo de Caja Ciego** | Pendiente |
+### 📊 Matriz de Estado de Módulos
 
-**Sprint actual:** Sprint 3 — Backend con SpringBoot
-**Fecha de cierre estimada:** 22/06/2026
+| Épica / Componente | Estado Operativo | Observaciones / Cobertura |
+| :--- | :--- | :--- |
+| **Análisis de Requisitos e Historias de Usuario** |  Completado - Revisar | Base conceptual validada para las reglas de negocio de Coffee Blinders. |
+| **Arquitectura de Software y Modelado UML** |  Completado - Revisar | Diagramas de casos de uso, secuencia, actividades y clases finalizados. |
+| **Diseño Visual e Interfaces (Wireframes)** |  Completado - Revisar | Estructura UI/UX de las apps móviles y el panel web completamente definida. |
+| **Estructura y Base de Datos (PostgreSQL)** |  En Progreso | Creación de scripts, esquemas lógicos y mapeo inicial de tablas. |
+| **Servidor y API REST (Spring Boot)** |  En Progreso | Inicialización del entorno de persistencia y controladores esenciales. |
+| **Aplicación Móvil (Clientes y Mozos)** | ⏳ Pendiente | Segunda fase (Alineada al consumo de los endpoints síncronos). |
+| **Panel Web (KDS y Administración)** | ⏳ Pendiente | Segunda fase (Vistas de producción de barra y control de personal). |
+| **Pruebas Unitarias e Integración** | ⏳ Pendiente | Planificado para ejecutarse en paralelo con la lógica de servicios. |
+
+---
+
+### 🚀 Sprint Actual
+
+* **Sprint Activo:** Sprint 3 — Construcción del Núcleo del Servidor y Persistencia Transaccional. Backend con SpringBoot
+* **Hitos del Periodo:**
+  1. Inicialización y hosting del repositorio oficial del proyecto dentro de la plataforma interna **Kallithea**.
+  2. Configuración del proyecto base con Maven e inyección de dependencias de seguridad y persistencia relacional.
+  3. Desarrollo de la arquitectura de capas base (`Controllers`, `Services`, `Repositories` y `Models`).
+* **Sprints Anteriores (Historial):**
+  * **Sprint 1 (Completado):** Relevamiento de campo, ingeniería de requerimientos (RF/RNF) y redacción formal de historias de usuario bajo estándar Gherkin.
+  * **Sprint 2 (Completado):** Maquetación e interconexión de interfaces visuales de usuario (Wireframes), junto con el desarrollo de diagramas de casos de uso, clases generales, actividades y secuencia.
 
 ## Equipo de desarrollo
 
