@@ -134,9 +134,9 @@ Este proyecto ha sido diseñado, modelado e implementado de forma colaborativa p
 | Apellido, Nombre | Rol / Enfoque en el Proyecto | Perfil de GitHub |
 | :--- | :--- | :--- |
 | Tu-Apellido, Francisco | Desarrollador / Desarrollo de Sprints | [@tu_usuario](https://github.com/tu_usuario) |
-| Apellido, Nombre 2 | Desarrollador / Desarrollo de Sprints | [@usuario2](https://github.com/usuario2) |
-| Apellido, Nombre 3 | Desarrollador / Desarrollo de Sprints | [@usuario3](https://github.com/usuario3) |
-| Apellido, Nombre 4 | Desarrollador / Desarrollo de Sprints | [@usuario4](https://github.com/usuario4) |
+| Apellido, Lautaro | Desarrollador / Desarrollo de Sprints | [@usuario2](https://github.com/usuario2) |
+| Apellido, Paula | Desarrollador / Desarrollo de Sprints | [@usuario3](https://github.com/usuario3) |
+| Apellido, Sofia | Desarrollador / Desarrollo de Sprints | [@usuario4](https://github.com/usuario4) |
 | Apellido, Nombre Docente | Tutor / Product Owner | [@usuario4](https://github.com/usuario4) |
 
 * **Institución:** Sede Regional Río Tercero «Escuela Superior de Comercio» — Universidad Provincial de Córdoba (UPC)
