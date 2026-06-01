@@ -135,16 +135,16 @@ Este proyecto ha sido diseñado, modelado e implementado de forma colaborativa p
 
 | Apellido, Nombre | Rol / Enfoque en el Proyecto | Perfil de GitHub |
 | :--- | :--- | :--- |
-| Tu-Apellido, Francisco | Desarrollador / Desarrollo de Sprints | [@tu_usuario](https://github.com/tu_usuario) |
-| Apellido, Lautaro | Desarrollador / Desarrollo de Sprints | [@usuario2](https://github.com/usuario2) |
-| Apellido, Paula | Desarrollador / Desarrollo de Sprints | [@usuario3](https://github.com/usuario3) |
-| Apellido, Sofia | Desarrollador / Desarrollo de Sprints | [@usuario4](https://github.com/usuario4) |
-| Apellido, Nombre Docente | Tutor / Product Owner | [@usuario4](https://github.com/usuario4) |
+| Maldonado, Francisco | Desarrollador / Desarrollo de Sprints | [@tu_usuario](https://github.com/tu_usuario) |
+| Carrasco, Lautaro | Desarrollador / Desarrollo de Sprints | [@usuario2](https://github.com/usuario2) |
+| Rodriguez, Paula | Desarrollador / Desarrollo de Sprints | [@usuario3](https://github.com/usuario3) |
+| Amaya, Sofia | Desarrollador / Desarrollo de Sprints | [@usuario4](https://github.com/usuario4) |
+| Guerra, Mario | Tutor / Product Owner | [@usuario4](https://github.com/usuario4) |
 
 * **Institución:** Sede Regional Río Tercero «Escuela Superior de Comercio» — Universidad Provincial de Córdoba (UPC)
 * **Carrera:** Tecnicatura Superior en Desarrollo de Software
 * **Materia:** Proyecto Integrador / Prácticas Profesionalizantes II
-* **Cátedra / Docente:** [Nombre de tu Docente]
+* **Cátedra / Docente:** [Guerra Mario, Guillen Viviana]
 * **Año Lectivo:** 2026
 
 ---
