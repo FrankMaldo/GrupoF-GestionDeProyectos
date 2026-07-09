@@ -135,9 +135,9 @@ Este proyecto ha sido diseñado, modelado e implementado de forma colaborativa p
 
 | Apellido, Nombre | Rol / Enfoque en el Proyecto | Perfil de GitHub |
 | :--- | :--- | :--- |
-| Maldonado, Francisco | Desarrollador / Desarrollo de Sprints | [@tu_usuario](https://github.com/tu_usuario) |
+| Maldonado, Francisco | Desarrollador / Desarrollo de Sprints | [https://github.com/FrankMaldo ] |
 | Carrasco, Lautaro | Desarrollador / Desarrollo de Sprints | [@usuario2](https://github.com/usuario2) |
-| Rodriguez, Paula | Desarrollador / Desarrollo de Sprints | [@usuario3](https://github.com/usuario3) |
+| Rodriguez, Paula | Desarrollador / Desarrollo de Sprints | [@usuario3][https://github.com/rodriguezpaula97 ] |
 | Amaya, Sofia | Desarrollador / Desarrollo de Sprints | [@usuario4](https://github.com/usuario4) |
 | Guerra, Mario | Tutor / Product Owner | [@usuario4](https://github.com/usuario4) |
 
